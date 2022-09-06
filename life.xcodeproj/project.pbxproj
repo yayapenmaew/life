@@ -15,6 +15,8 @@
 		FEDC775528C715DC00473ED9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC772A28C715D800473ED9 /* ContentView.swift */; };
 		FEDC775628C715DC00473ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDC772B28C715DC00473ED9 /* Assets.xcassets */; };
 		FEDC775728C715DC00473ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDC772B28C715DC00473ED9 /* Assets.xcassets */; };
+		FEDC777628C71AA500473ED9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC777528C71AA500473ED9 /* MainView.swift */; };
+		FEDC777728C71AA500473ED9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC777528C71AA500473ED9 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		FEDC774B28C715DC00473ED9 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDC774F28C715DC00473ED9 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		FEDC775128C715DC00473ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEDC777528C71AA500473ED9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 				FEDC772928C715D800473ED9 /* lifeApp.swift */,
 				FEDC772A28C715D800473ED9 /* ContentView.swift */,
 				FEDC772B28C715DC00473ED9 /* Assets.xcassets */,
+				FEDC777528C71AA500473ED9 /* MainView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -309,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEDC775428C715DC00473ED9 /* ContentView.swift in Sources */,
+				FEDC777628C71AA500473ED9 /* MainView.swift in Sources */,
 				FEDC775228C715DC00473ED9 /* lifeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEDC775528C715DC00473ED9 /* ContentView.swift in Sources */,
+				FEDC777728C71AA500473ED9 /* MainView.swift in Sources */,
 				FEDC775328C715DC00473ED9 /* lifeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
